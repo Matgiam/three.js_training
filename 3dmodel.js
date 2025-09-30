@@ -19,6 +19,7 @@ loader.load(
 	"/squirtle.glb",
 	function (gltf) {
 		scene.add(gltf.scene);
+		renderer.render(scene, camera);
 	},
 	undefined,
 	function (error) {
@@ -26,8 +27,5 @@ loader.load(
 	}
 );
 camera.position.z = 2;
-function animate() {
-	requestAnimationFrame(animate);
-	renderer.render(scene, camera);
-}
-animate();
+camera.position.y = 0.5;
+
