@@ -1,0 +1,22 @@
+#info {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	color: aliceblue;
+}
+
+.links {
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	gap: 30px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 30px;
+	color: white;
+}
